@@ -14,4 +14,10 @@ public class GretingController {
     public String hellou(){
         return "Hellou CJX";
     }
+
+
+    @GetMapping("hiProtected")
+    public String hellouProtec(){
+        return "Hellou CJX PROTECTED";
+    }
 }
